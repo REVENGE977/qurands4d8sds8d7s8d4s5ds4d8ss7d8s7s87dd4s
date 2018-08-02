@@ -187,4 +187,4 @@ collector7.on('collect', r => {
 });
 
 
-client.login('NDc0Njg3NDMwODcyNzkzMDg5.DkUI1g.9q4E5O5gvJd6Y98q1LVXB35Hxmw');
+client.login('process.env.BOT_TOKEN');
