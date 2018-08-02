@@ -29,7 +29,7 @@ client.on('message', message => {
 	let embed = new Discord.RichEmbed()
     .setAuthor(`${message.author.tag}`, message.author.avatarURL)
 	.setColor('#000000')
-	.setFooter("صدقه جاريه للجميع", 'https://c.top4top.net/p_8981fwg11.png')
+	.setFooter("صدقه جاريه للجميع", 'https://cdn.discordapp.com/avatars/474687430872793089/692c2796377c84d4edee0dcd1b59d7a9.jpg?size=128')
       .setDescription(`
      🕋 اوامر بوت القرآن الكريم 🕋
 🇦 القرآن كاملاً ماهر المعيقلي
