@@ -21,7 +21,7 @@ const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 
 client.on('message', message => {
-	if(message.content.startsWith(prefix + 'قران')) {
+	if(message.content.startsWith(prefix + 'quran')) {
 		message.delete();
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) return message.reply(`**يحب ان تكون في روم صوتي**`);
